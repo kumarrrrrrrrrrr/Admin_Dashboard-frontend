@@ -1,0 +1,37 @@
+.header{
+    background-color: aqua;
+    display: flex;
+}
+
+.title{
+    text-align: center;
+    position: relative;
+}
+
+.title::after{
+    content:" ";
+    position: absolute;
+    display: block;
+    left: 38%;
+    bottom: -10px;
+    width: 24%;
+    height: 5px;
+    background-color: rgb(47,135,181);
+    border-radius: 5px;
+}
+
+.dashboard-main-row{
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.dashboard-row{
+    background-color: rgb(236,240,249);
+    margin-right: 25px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
