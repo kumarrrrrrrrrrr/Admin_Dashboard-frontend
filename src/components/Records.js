@@ -11,7 +11,7 @@ function Records() {
 
     // Fetching data from MongoDB
     useEffect(()=>{
-        axios('http://localhost:8000/fetch')
+        axios('https://admin--board.herokuapp.com/fetch')
             .then(response => setData(response.data))
     },[])
 

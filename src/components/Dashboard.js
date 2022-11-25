@@ -10,7 +10,7 @@ function Dashboard() {
   const addTotalUsers = [0]
 
   useEffect(()=>{
-    axios('http://localhost:8000/fetch')
+    axios('http://https://admin--board.herokuapp.com/fetch')
         .then(response => setData(response.data))
 },[])
 

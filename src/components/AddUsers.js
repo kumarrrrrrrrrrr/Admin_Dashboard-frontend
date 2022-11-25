@@ -22,7 +22,7 @@ const month = ['Select Month','Jan','Feb','March','April','May','June','July','A
 
 // Getting data from MongoDB
 useEffect(()=>{
-    axios('http://localhost:8000/fetch')
+    axios('http://https://admin--board.herokuapp.com/fetch')
     .then(response => setDatas(response.data))
 
 },[])
